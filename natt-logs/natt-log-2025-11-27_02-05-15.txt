@@ -1,0 +1,167 @@
+[02:05:15][PluginLoader][WARNING] Plugins directory not found.
+[02:05:15][ProcessManager][WARNING] Failed to read PIDs: pid-list.txt (No such file or directory)
+[02:05:15][NATTCore][INFO] NATT CORE initialization done
+Version: 1.7.0 
+Configuration path: https://gitlab.com/ap5vs/test-config/restful-api-server-config/-/raw/main/test-config-6.yaml?ref_type=heads
+Configuration loading mode: FROM URL
+[02:05:15][NATTCore][INFO] Working directory path: /home/kuruteiru/dev/utb/utb-net-apps/ex09/restful-api-server
+[02:05:15][NATTCore][INFO] Start loading of the configuration file ...
+[02:05:16][NetworkIO][INFO] Yaml data has been loaded from network location (https://gitlab.com/ap5vs/test-config/restful-api-server-config/-/raw/main/test-config-6.yaml?ref_type=heads)
+[02:05:16][NATTCore][INFO] Configuration loading done
+[02:05:16][NATTCore][INFO] Start building test structure according to the configuration ...
+[02:05:16][NATTCore][INFO] Test structure ...
+[02:05:16][NATTCore][INFO] Test structure building done
+[02:05:16][NATTCore][INFO] Start test executing ...
+[02:05:16][TestReportGenerator][INFO] Extenet reports generated. Final report will be saved to file: test_report.html
+[02:05:16][NATTCore][INFO] Starts execution on the root keyword  ...
+[02:05:16][MessageBuffer][INFO] Message buffer created for module with name: default
+[02:05:16][ExternalProgramRunner][INFO] (default) Run external app with command: java -jar build/libs/RESTAPIServer-0.0.1-SNAPSHOT.jar
+[02:05:16][ProcessManager][INFO] New PID (180302) added to file
+[02:05:16][WaitUntilKw][INFO] Waiting for action. Actions count: 1, Time out: 30000 ms
+[02:05:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: ''
+[02:05:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '  .   ____          _            __ _ _'
+[02:05:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: ' /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \'
+[02:05:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \'
+[02:05:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: ' \\/  ___)| |_)| | | | | || (_| |  ) ) ) )'
+[02:05:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '  '  |____| .__|_| |_|_| |_\__, | / / / /'
+[02:05:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: ' =========|_|==============|___/=/_/_/_/'
+[02:05:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: ' :: Spring Boot ::                (v3.2.4)'
+[02:05:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: ''
+[02:05:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-11-27T02:05:17.616+01:00  INFO 180302 --- [RESTAPIServer] [           main] u.f.R.RestapiServerApplication           : Starting RestapiServerApplication v0.0.1-SNAPSHOT using Java 21.0.8 with PID 180302 (/home/kuruteiru/dev/utb/utb-net-apps/ex09/restful-api-server/build/libs/RESTAPIServer-0.0.1-SNAPSHOT.jar started by kuruteiru in /home/kuruteiru/dev/utb/utb-net-apps/ex09/restful-api-server)'
+[02:05:17][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-11-27T02:05:17.621+01:00  INFO 180302 --- [RESTAPIServer] [           main] u.f.R.RestapiServerApplication           : No active profile set, falling back to 1 default profile: "default"'
+[02:05:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-11-27T02:05:18.345+01:00  INFO 180302 --- [RESTAPIServer] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.'
+[02:05:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-11-27T02:05:18.397+01:00  INFO 180302 --- [RESTAPIServer] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 46 ms. Found 1 JPA repository interface.'
+[02:05:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-11-27T02:05:18.890+01:00  INFO 180302 --- [RESTAPIServer] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)'
+[02:05:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-11-27T02:05:18.904+01:00  INFO 180302 --- [RESTAPIServer] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]'
+[02:05:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-11-27T02:05:18.904+01:00  INFO 180302 --- [RESTAPIServer] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]'
+[02:05:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-11-27T02:05:18.949+01:00  INFO 180302 --- [RESTAPIServer] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext'
+[02:05:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-11-27T02:05:18.950+01:00  INFO 180302 --- [RESTAPIServer] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1239 ms'
+[02:05:18][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-11-27T02:05:18.988+01:00  INFO 180302 --- [RESTAPIServer] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...'
+[02:05:19][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-11-27T02:05:19.125+01:00  INFO 180302 --- [RESTAPIServer] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA'
+[02:05:19][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-11-27T02:05:19.126+01:00  INFO 180302 --- [RESTAPIServer] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.'
+[02:05:19][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-11-27T02:05:19.136+01:00  INFO 180302 --- [RESTAPIServer] [           main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb''
+[02:05:19][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-11-27T02:05:19.281+01:00  INFO 180302 --- [RESTAPIServer] [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]'
+[02:05:19][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-11-27T02:05:19.341+01:00  INFO 180302 --- [RESTAPIServer] [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final'
+[02:05:19][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-11-27T02:05:19.394+01:00  INFO 180302 --- [RESTAPIServer] [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled'
+[02:05:19][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-11-27T02:05:19.613+01:00  INFO 180302 --- [RESTAPIServer] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer'
+[02:05:19][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-11-27T02:05:19.655+01:00  WARN 180302 --- [RESTAPIServer] [           main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)'
+[02:05:20][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-11-27T02:05:20.380+01:00  INFO 180302 --- [RESTAPIServer] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)'
+[02:05:20][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-11-27T02:05:20.425+01:00  INFO 180302 --- [RESTAPIServer] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default''
+[02:05:20][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-11-27T02:05:20.760+01:00  WARN 180302 --- [RESTAPIServer] [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning'
+[02:05:21][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-11-27T02:05:21.315+01:00  INFO 180302 --- [RESTAPIServer] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '''
+[02:05:21][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-11-27T02:05:21.346+01:00  INFO 180302 --- [RESTAPIServer] [           main] u.f.R.RestapiServerApplication           : Started RestapiServerApplication in 4.184 seconds (process running for 4.732)'
+[02:05:21][WaitUntilKw][INFO] Action triggered from module 'default'
+[02:05:21][NATTContext][INFO] Data has been stored in to the variable 'default-action-msg'. Data value: 2025-11-27T02:05:21.346+01:00  INFO 180302 --- [RESTAPIServer] [           main] u.f.R.RestapiServerApplication           : Started RestapiServerApplication in 4.184 seconds (process running for 4.732)
+[02:05:21][WaitUntilKw][INFO] Action was invoked. Elapsed time: 4725 ms
+[02:05:21][MessageBuffer][INFO] Message buffer created for module with name: module-1
+[02:05:21][RESTTester][INFO] (module-1) Sending a DELETE request on endpoint: http://localhost:8080/deleteAll
+[02:05:21][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-11-27T02:05:21.554+01:00  INFO 180302 --- [RESTAPIServer] [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet''
+[02:05:21][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-11-27T02:05:21.554+01:00  INFO 180302 --- [RESTAPIServer] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet''
+[02:05:21][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2025-11-27T02:05:21.556+01:00  INFO 180302 --- [RESTAPIServer] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms'
+[02:05:21][MessageBuffer][INFO] Message added to buffer [ Mod: module-1 | Tag: http://localhost:8080/deleteAll ] Content: ''
+[02:05:21][MessageBuffer][INFO] Message buffer created for module with name: user-create
+[02:05:21][MessageBuffer][INFO] Message buffer created for module with name: user-get
+[02:05:21][TestSuiteKw][INFO] Test case 'Test vytvoření uživatele' starts executing now
+[02:05:21][RESTTester][INFO] (user-create) Sending a POST request on endpoint: http://localhost:8080/createUser
+[02:05:21][MessageBuffer][INFO] Message added to buffer [ Mod: user-create | Tag: http://localhost:8080/createUser ] Content: '{"id":1,"name":"User1","email":"test@email.com","phoneNumber":"+420666555444","userDataValid":true}'
+[02:05:21][NATTContext][INFO] Data has been stored in to the variable 'var-id'. Data value: 1
+[02:05:21][RESTTester][INFO] (user-get) Sending a GET request on endpoint: http://localhost:8080/getUser?id=1
+[02:05:21][MessageBuffer][INFO] Message added to buffer [ Mod: user-get | Tag: http://localhost:8080/getUser ] Content: '{"id":1,"name":"User1","email":"test@email.com","phoneNumber":"+420666555444","userDataValid":true}'
+[02:05:21][TestSuiteKw][INFO] Test suite 'Testování vytváření uživatelů' - Test case 'Test vytvoření uživatele' passed
+[02:05:22][MessageBuffer][INFO] Message buffer cleared
+[02:05:22][TestSuiteKw][INFO] Test case 'Test vytvoření uživatele s neplatným emailem' starts executing now
+[02:05:22][RESTTester][INFO] (user-create) Sending a POST request on endpoint: http://localhost:8080/createUser
+[02:05:22][RESTTester][WARNING] (user-create) HTTP request returned an error status: 400
+[02:05:22][MessageBuffer][INFO] Message added to buffer [ Mod: user-create | Tag: http://localhost:8080/createUser ] Content: 'ERROR: 400'
+[02:05:22][TestSuiteKw][INFO] Test suite 'Testování vytváření uživatelů' - Test case 'Test vytvoření uživatele s neplatným emailem' passed
+[02:05:22][MessageBuffer][INFO] Message buffer cleared
+[02:05:23][TestSuiteKw][INFO] Test case 'Test vytvoření uživatele s neplatným telefonem' starts executing now
+[02:05:23][RESTTester][INFO] (user-create) Sending a POST request on endpoint: http://localhost:8080/createUser
+[02:05:23][RESTTester][WARNING] (user-create) HTTP request returned an error status: 400
+[02:05:23][MessageBuffer][INFO] Message added to buffer [ Mod: user-create | Tag: http://localhost:8080/createUser ] Content: 'ERROR: 400'
+[02:05:23][TestSuiteKw][INFO] Test suite 'Testování vytváření uživatelů' - Test case 'Test vytvoření uživatele s neplatným telefonem' passed
+[02:05:23][MessageBuffer][INFO] Message buffer cleared
+[02:05:24][MessageBuffer][INFO] Message buffer cleared
+[02:05:24][RESTTester][INFO] (user-create) REST tester [user-create] terminated
+[02:05:24][RESTTester][INFO] (user-get) REST tester [user-get] terminated
+[02:05:24][MessageBuffer][INFO] Message buffer created for module with name: user-edit
+[02:05:24][MessageBuffer][INFO] Message buffer created for module with name: user-all
+[02:05:24][TestSuiteKw][INFO] Test case 'Test aktualizace uživatele' starts executing now
+[02:05:24][RESTTester][INFO] (user-all) Sending a GET request on endpoint: http://localhost:8080/users
+[02:05:24][MessageBuffer][INFO] Message added to buffer [ Mod: user-all | Tag: http://localhost:8080/users ] Content: '[{"id":1,"name":"User1","email":"test@email.com","phoneNumber":"+420666555444","userDataValid":true}]'
+[02:05:24][NATTContext][INFO] Data has been stored in to the variable 'var-user'. Data value: {"id":1,"name":"User1","email":"test@email.com","phoneNumber":"+420666555444","userDataValid":true}
+[02:05:24][NATTContext][INFO] Data has been stored in to the variable 'var-id'. Data value: 1
+[02:05:24][RESTTester][INFO] (user-edit) Sending a PUT request on endpoint: http://localhost:8080/editUser?id=1
+[02:05:24][MessageBuffer][INFO] Message added to buffer [ Mod: user-edit | Tag: http://localhost:8080/editUser ] Content: '{"id":1,"name":"updated","email":"updated@email.com","phoneNumber":"+420777666444","userDataValid":true}'
+[02:05:24][RESTTester][INFO] (user-get) Sending a GET request on endpoint: http://localhost:8080/getUser?id=1
+[02:05:24][MessageBuffer][INFO] Message added to buffer [ Mod: user-get | Tag: http://localhost:8080/getUser ] Content: '{"id":1,"name":"updated","email":"updated@email.com","phoneNumber":"+420777666444","userDataValid":true}'
+[02:05:24][TestSuiteKw][INFO] Test suite 'Testování aktualizace uživatelů' - Test case 'Test aktualizace uživatele' passed
+[02:05:24][MessageBuffer][INFO] Message buffer cleared
+[02:05:25][TestSuiteKw][INFO] Test case 'Test aktualizace uživatele s neplatnými údaji 1' starts executing now
+[02:05:25][RESTTester][INFO] (user-all) Sending a GET request on endpoint: http://localhost:8080/users
+[02:05:25][MessageBuffer][INFO] Message added to buffer [ Mod: user-all | Tag: http://localhost:8080/users ] Content: '[{"id":1,"name":"updated","email":"updated@email.com","phoneNumber":"+420777666444","userDataValid":true}]'
+[02:05:25][NATTContext][INFO] Data has been stored in to the variable 'var-user'. Data value: {"id":1,"name":"updated","email":"updated@email.com","phoneNumber":"+420777666444","userDataValid":true}
+[02:05:25][NATTContext][INFO] Data has been stored in to the variable 'var-id'. Data value: 1
+[02:05:25][RESTTester][INFO] (user-edit) Sending a PUT request on endpoint: http://localhost:8080/editUser?id=1
+[02:05:25][RESTTester][WARNING] (user-edit) HTTP request returned an error status: 400
+[02:05:25][MessageBuffer][INFO] Message added to buffer [ Mod: user-edit | Tag: http://localhost:8080/editUser ] Content: 'ERROR: 400'
+[02:05:25][TestSuiteKw][INFO] Test suite 'Testování aktualizace uživatelů' - Test case 'Test aktualizace uživatele s neplatnými údaji 1' passed
+[02:05:25][MessageBuffer][INFO] Message buffer cleared
+[02:05:25][TestSuiteKw][INFO] Test case 'Test aktualizace uživatele s neplatnými údaji 2' starts executing now
+[02:05:25][RESTTester][INFO] (user-all) Sending a GET request on endpoint: http://localhost:8080/users
+[02:05:25][MessageBuffer][INFO] Message added to buffer [ Mod: user-all | Tag: http://localhost:8080/users ] Content: '[{"id":1,"name":"updated","email":"updated@email.com","phoneNumber":"+420777666444","userDataValid":true}]'
+[02:05:25][NATTContext][INFO] Data has been stored in to the variable 'var-user'. Data value: {"id":1,"name":"updated","email":"updated@email.com","phoneNumber":"+420777666444","userDataValid":true}
+[02:05:25][NATTContext][INFO] Data has been stored in to the variable 'var-id'. Data value: 1
+[02:05:25][RESTTester][INFO] (user-edit) Sending a PUT request on endpoint: http://localhost:8080/editUser?id=1
+[02:05:25][RESTTester][WARNING] (user-edit) HTTP request returned an error status: 400
+[02:05:25][MessageBuffer][INFO] Message added to buffer [ Mod: user-edit | Tag: http://localhost:8080/editUser ] Content: 'ERROR: 400'
+[02:05:25][TestSuiteKw][INFO] Test suite 'Testování aktualizace uživatelů' - Test case 'Test aktualizace uživatele s neplatnými údaji 2' passed
+[02:05:25][MessageBuffer][INFO] Message buffer cleared
+[02:05:26][MessageBuffer][INFO] Message buffer cleared
+[02:05:26][RESTTester][INFO] (user-edit) REST tester [user-edit] terminated
+[02:05:26][RESTTester][INFO] (user-get) REST tester [user-get] terminated
+[02:05:26][RESTTester][INFO] (user-all) REST tester [user-all] terminated
+[02:05:26][MessageBuffer][INFO] Message buffer created for module with name: user-delete
+[02:05:26][MessageBuffer][INFO] Message buffer created for module with name: user-delete-all
+[02:05:26][RESTTester][INFO] (user-create) Sending a POST request on endpoint: http://localhost:8080/createUser
+[02:05:26][MessageBuffer][INFO] Message added to buffer [ Mod: user-create | Tag: http://localhost:8080/createUser ] Content: '{"id":2,"name":"TestUser1","email":"test1@email.com","phoneNumber":"+420777666555","userDataValid":true}'
+[02:05:26][RESTTester][INFO] (user-create) Sending a POST request on endpoint: http://localhost:8080/createUser
+[02:05:26][MessageBuffer][INFO] Message added to buffer [ Mod: user-create | Tag: http://localhost:8080/createUser ] Content: '{"id":3,"name":"TestUser2","email":"test2@email.com","phoneNumber":"+420777666555","userDataValid":true}'
+[02:05:26][TestSuiteKw][INFO] Test case 'Test odstranění jednoho uživatele' starts executing now
+[02:05:26][RESTTester][INFO] (user-all) Sending a GET request on endpoint: http://localhost:8080/users
+[02:05:26][MessageBuffer][INFO] Message added to buffer [ Mod: user-all | Tag: http://localhost:8080/users ] Content: '[{"id":1,"name":"updated","email":"updated@email.com","phoneNumber":"+420777666444","userDataValid":true},{"id":2,"name":"TestUser1","email":"test1@email.com","phoneNumber":"+420777666555","userDataValid":true},{"id":3,"name":"TestUser2","email":"test2@email.com","phoneNumber":"+420777666555","userDataValid":true}]'
+[02:05:26][NATTContext][INFO] Data has been stored in to the variable 'var-user'. Data value: {"id":1,"name":"updated","email":"updated@email.com","phoneNumber":"+420777666444","userDataValid":true}
+[02:05:26][NATTContext][INFO] Data has been stored in to the variable 'var-id'. Data value: 1
+[02:05:26][RESTTester][INFO] (user-delete) Sending a DELETE request on endpoint: http://localhost:8080/deleteUser?id=1
+[02:05:26][MessageBuffer][INFO] Message added to buffer [ Mod: user-delete | Tag: http://localhost:8080/deleteUser ] Content: ''
+[02:05:26][RESTTester][INFO] (user-get) Sending a GET request on endpoint: http://localhost:8080/getUser?id=1
+[02:05:26][RESTTester][WARNING] (user-get) HTTP request returned an error status: 404
+[02:05:26][MessageBuffer][INFO] Message added to buffer [ Mod: user-get | Tag: http://localhost:8080/getUser ] Content: 'ERROR: 404'
+[02:05:26][TestSuiteKw][INFO] Test suite 'Testování požadavků pro odstranění' - Test case 'Test odstranění jednoho uživatele' passed
+[02:05:26][MessageBuffer][INFO] Message buffer cleared
+[02:05:27][TestSuiteKw][INFO] Test case 'Test odstranění všech uživatelů' starts executing now
+[02:05:27][RESTTester][INFO] (user-delete-all) Sending a DELETE request on endpoint: http://localhost:8080/deleteAll
+[02:05:27][MessageBuffer][INFO] Message added to buffer [ Mod: user-delete-all | Tag: http://localhost:8080/deleteAll ] Content: ''
+[02:05:27][RESTTester][INFO] (user-all) Sending a GET request on endpoint: http://localhost:8080/users
+[02:05:27][MessageBuffer][INFO] Message added to buffer [ Mod: user-all | Tag: http://localhost:8080/users ] Content: '[]'
+[02:05:27][TestSuiteKw][INFO] Test suite 'Testování požadavků pro odstranění' - Test case 'Test odstranění všech uživatelů' passed
+[02:05:27][MessageBuffer][INFO] Message buffer cleared
+[02:05:28][MessageBuffer][INFO] Message buffer cleared
+[02:05:28][RESTTester][INFO] (user-delete) REST tester [user-delete] terminated
+[02:05:28][RESTTester][INFO] (user-delete-all) REST tester [user-delete-all] terminated
+[02:05:28][RESTTester][INFO] (user-all) REST tester [user-all] terminated
+[02:05:28][RESTTester][INFO] (user-get) REST tester [user-get] terminated
+[02:05:28][RESTTester][INFO] (user-create) REST tester [user-create] terminated
+[02:05:28][MessageBuffer][INFO] Message buffer cleared
+[02:05:28][ExternalProgramRunner][INFO] (default) Termiting external application
+[02:05:28][ProcessManager][INFO] PID (180302) removed from file
+[02:05:28][RESTTester][INFO] (module-1) REST tester [module-1] terminated
+[02:05:28][NATTCore][INFO] Test executing finished
+[02:05:28][NATTCore][INFO] Start generating test report
+[02:05:28][ExternalProgramRunner][INFO] (default) External application termited
+[02:05:28][ProcessManager][INFO] PID (180302) removed from file
+[02:05:28][ExternalProgramRunner][WARNING] (default) External application ends with error: 143
+[02:05:28][TestReportGenerator][INFO] Report saved to file
+[02:05:28][NATTCore][INFO] All test cases passed.
+[02:05:28][NATTCore][INFO] Final score: 9.000000
+[02:05:28][NATTCore][INFO] Testing done. Leaving status: PASSED
